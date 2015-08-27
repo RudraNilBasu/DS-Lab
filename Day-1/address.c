@@ -15,7 +15,7 @@ int main()
 	*/
 	//printf("%d",a);
 	int ba,c,x,i,j;
-	printf("1.Row Major.\n2.Column Major");
+	printf("Choose an option\n1.Row Major.\n2.Column Major");
 	scanf("%d",&c);
 	printf("Enter BA\n");
 	scanf("%d",&ba);
@@ -29,5 +29,5 @@ int main()
 	{
 		x=ba+((j*3)+i)*sizeof(int);
 	}
-	printf("ans = %d",x);
+	printf("Ans = %d",x);
 }
