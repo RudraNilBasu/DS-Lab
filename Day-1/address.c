@@ -13,7 +13,6 @@ int main()
 		}
 	}
 	*/
-	//printf("%d",a);
 	int ba,c,x,i,j;
 	printf("Choose an option\n1.Row Major.\n2.Column Major");
 	scanf("%d",&c);
