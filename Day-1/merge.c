@@ -21,23 +21,7 @@ int main()
 	// merging
 	while(pos!=15)
 	{
-		/*if(lol==1)
-		{
-			printf("lol\n");
-			for(i=posb;i<5;i++)
-			{
-				c[pos++]=b[posb++];
-			}
-		}
-		else if(yolo=1)
-		{
-			for(i=posa;i<10;i++)
-			{
-				c[pos++]=a[posa++];
-			}
-		}*/
-		//else
-		//{
+		
 			if(lol=1)
 			{
 				//printf("HAHA \n");
