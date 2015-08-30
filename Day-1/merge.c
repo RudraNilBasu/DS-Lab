@@ -5,7 +5,7 @@
 int main()
 {
 	printf("Thou art RNBfied\n");
-	int a[10],b[5],c[15];
+	int a[10],b[5],c[15]; // first array -10 elements. second array - 5 elements.
 	int lol=0,pos=0,posa=0,posb=0,yolo=0;
 	printf("Insert 10 elements in 1st array in sorted order\n");
 	int i;
