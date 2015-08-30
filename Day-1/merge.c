@@ -6,7 +6,7 @@ int main()
 {
 	printf("Thou art RNBfied\n");
 	int a[10],b[5],c[15]; // first array -10 elements. second array - 5 elements.
-	int lol=0,pos=0,posa=0,posb=0,yolo=0;
+	int lol=0,pos=0,posa=0,posb=0,yolo=0; // posa is the current position in array a[]. posb is the current position in array b[].
 	printf("Insert 10 elements in 1st array in sorted order\n");
 	int i;
 	for(i=0;i<10;i++)
