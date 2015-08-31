@@ -1,18 +1,8 @@
+//Calculating Memory Address
+
 #include<stdio.h>
 int main()
 {
-	int a[3][3];
-	printf("Enter the array");
-	//int i,j;
-	/*
-	for(i=0;i<3;i++)
-	{
-		for(j=0;j<3;j++)
-		{
-			scanf("%d",&a[i][j]);
-		}
-	}
-	*/
 	int ba,c,x,i,j;
 	printf("Choose an option\n1.Row Major.\n2.Column Major");
 	scanf("%d",&c);
