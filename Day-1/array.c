@@ -20,12 +20,7 @@ int insert(int x)
 	{
 		top++;
 		//shifting
-		/*
-		for(i=0;i<top;i++)
-		{
-			a[i+1]=a[i];
-		}
-		*/
+		
 		for(i=top-1;i>=0;i--)
 		{
 			a[i]=a[i-1];
