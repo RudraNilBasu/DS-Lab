@@ -75,7 +75,6 @@ int main()
 			printf("Enter the number to be inserted.\n");
 			scanf("%d",&number);
 			insert(number);
-			//printf("\n**LOL**\n");
 			break;
 			case 2:
 			printf("Enter the position to be deleted.\n");
