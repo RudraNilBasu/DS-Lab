@@ -17,15 +17,11 @@ int main()
 	for(i=0;i<5;i++)
 	{
 		scanf("%d",&b[i]);
-	}//printf("lol\n");
+	}
 	// merging
 	while(pos!=15)
 	{
 		
-			if(lol=1)
-			{
-				//printf("HAHA \n");
-			}
 			if(a[posa]<b[posb])
 			{
 					//posa++;
