@@ -39,7 +39,6 @@ int main()
 			}
 			else
 			{
-				//printf("lol2\n");
 				c[pos++]=b[posb++];
 				if(posb>5)
 				{
