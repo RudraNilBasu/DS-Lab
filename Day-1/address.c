@@ -10,11 +10,11 @@ int main()
 	scanf("%d",&ba);
 	printf("Enter i and j\n");
 	scanf("%d %d",&i,&j);
-	if(c==1)
+	if(c==1) // if row major 
 	{
 		x=ba+((i*3)+j)*sizeof(int);
 	}
-	else
+	else  // if column major
 	{
 		x=ba+((j*3)+i)*sizeof(int);
 	}
