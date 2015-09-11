@@ -1,3 +1,6 @@
+/*
+Program to Add to Polynomial expressions and display the final expression.
+*/
 #include<stdio.h>
 int main()
 {
@@ -33,19 +36,6 @@ int main()
 		scanf("%d",&num);
 		b[pos]=num;
 	}
-	/*
-	//PRINTING 
-	printf("1st array\n");
-	for(i=0;i<50;i++)
-	{
-		if(a[i]!=0)
-		{
-			printf("%d ( %d ) +",a[i],i);
-		}
-	}
-	printf("\n");
-	//END OF PRINTING
-	*/
 	//ADDING
 	for(i=0;i<50;i++)
 	{
