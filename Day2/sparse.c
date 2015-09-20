@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	int a[20][3]; // 3 tupple
+	int a[20][3]; // 3 tupple format
 	int v,h,r1,c1,r2,c2,v1,v2,i,j,val;
 	int sp1[20][20],sp2[20][20];
 	for(i=0;i<20;i++)
