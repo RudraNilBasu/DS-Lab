@@ -1,3 +1,6 @@
+/*
+Input a sparse matrix in 3 tupple form and find sum and product
+*/
 #include<stdio.h>
 int main()
 {
