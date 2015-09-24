@@ -1,0 +1,6 @@
+i) Implementation of stack using array showing push pop display
+ii) Check whether a given infix expression is correct or not
+iii) Infix to postfix conversion
+iv) Evaluate a given postfix expression
+v) Queue using array insert remove display
+
