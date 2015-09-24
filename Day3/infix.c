@@ -1,5 +1,6 @@
 //To check whether a infix expression is correct or not
 // Done upto checking the number of Brackets, not operands, so it is a WIP :P 
+//TODO : Check if the popped element is the openning of the closing bracket type, if no, then WA
 #include<stdio.h>
 #include<string.h>
 
@@ -14,11 +15,11 @@ int main()
 	printf("Enter the infix expression\n");
 	scanf("%s",inf);
 	int i;
-	for(i=0;i<strlen(inf);i++)
+	for(i=0;i<strlen(inf);i++)   // pushing for opening brackets, popping for closing bracket.
 	{
 		if(inf[i]=='(')
 		{
-			inf[++top]='(';
+			inf[++top]='('; 
 		}
 		else if(inf[i]=='[')
 		{
