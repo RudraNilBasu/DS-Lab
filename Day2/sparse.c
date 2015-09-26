@@ -166,7 +166,7 @@ int main()
         {
             for(j=0;j<cm;j++)
             {
-                printf("%d ",mult[i][j]);//arr[i][j]=count++;
+                printf("%d ",mult[i][j]);
             }
             printf("\n");
         }
