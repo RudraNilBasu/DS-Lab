@@ -25,7 +25,7 @@ int main()
 		{
 			inf[++top]='[';
 		}
-		else if(inf[i]==')')
+		else if(inf[i]==')')  //popping last element
 		{
 			top--;
 		}
