@@ -4,6 +4,7 @@
 #define intin(x) scanf("%d",&x)
 #define in(x) scanf("%s",x)
 #define RUNBF(i,a,b) for(i=a;i<b;i++)
+#define RNB printf("Done by Rudra Nil Basu\n")
 
 char pf[50];
 int s[50];
@@ -72,5 +73,6 @@ int main()
         }
         printf("Result is %d\n",res);
     }
+    RNB;
     return 0;
 }
