@@ -1,45 +1,71 @@
 //To check whether a infix expression is correct or not
 // Done upto checking the number of Brackets, not operands, so it is a WIP :P 
-//TODO : Check if the popped element is the openning of the closing bracket type, if no, then WA
+//TODO : Check if the popped element is the openning of the closing bracket type, if no, then WA [DONE]
 #include<stdio.h>
-#include<string.h>
-
-char s[50];
-char inf[50];
-
 int top=-1;
-
+char inf[50];
+char s[50];
 
 int main()
 {
-	printf("Enter the infix expression\n");
-	scanf("%s",inf);
-	int i;
-	for(i=0;i<strlen(inf);i++)   // pushing for opening brackets, popping for closing bracket.
-	{
-		if(inf[i]=='(')
+    scanf("%s",inf);
+    int i,flag=0;
+    for(i=0;i<strlen(inf);i++)
+    {
+        if(inf[i]=='(')
 		{
-			inf[++top]='('; 
+			s[++top]='(';
 		}
 		else if(inf[i]=='[')
 		{
-			inf[++top]='[';
+			s[++top]='[';
 		}
-		else if(inf[i]==')')  //popping last element
+		else if(inf[i]=='{')
 		{
-			top--;
+			s[++top]='{';
+		}
+		else if(inf[i]==')')
+		{
+			if(s[top]!='(')
+            {
+                flag=1;
+                break;
+            }
+            top--;
 		}
 		else if(inf[i]==']')
 		{
-			top--;
+			if(s[top]!='[')
+            {
+                flag=1;
+                break;
+            }
+            top--;
 		}
-	}
-	if(top==-1)
-	{
-		printf("Correct\n");
-	}
-	else
-	{
-		printf("Not correct\n");
-	}
+		else if(inf[i]=='}')
+		{
+			if(s[top]!='{')
+            {
+                flag=1;
+                break;
+            }
+            top--;
+		}
+    }
+    if(flag==1)
+    {
+        printf("Incorrect Bracket placements\n");
+    }
+    else
+    {
+        if(top==-1)
+        {
+            printf("Correct.\n");
+        }
+        else
+        {
+            printf("Not Correct.\n");
+        }
+    }
+    return 0;
 }
