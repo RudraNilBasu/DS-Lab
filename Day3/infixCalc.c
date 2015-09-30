@@ -25,7 +25,6 @@ int main()
     {
         res=0;
         printf("Enter the postfix expression. Beware, typing any wrong expression is your fault.\n");
-        //scanf("%s",pf);
         in(pf);
         top=-1; // Re initialising stack
         RUNBF(i,0,strlen(pf))
