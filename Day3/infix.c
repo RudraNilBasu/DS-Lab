@@ -40,7 +40,7 @@ int isoperator(int i)
     return 0;
 }
 
-int rem()
+int rem() // making a copy of infix[] in infix2[] without storing any brackets
 {
     int i,k=0;
     for(i=0;inf[i]!=';';i++)
