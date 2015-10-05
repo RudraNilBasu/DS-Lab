@@ -27,7 +27,7 @@ int main()
         res=0;
         printf("Enter the postfix expression. Beware, typing any wrong expression is your fault.\n");
         in(pf);
-        top=-1; // Re initialising stack
+        top=-1; // Re-initialising stack
         RUNBF(i,0,strlen(pf))
         {
             if( isnum(pf[i] ) )
