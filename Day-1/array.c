@@ -1,7 +1,8 @@
+/*
 // insert variable in beginning
 // delete using a given index
 // display the array
-
+*/
 #include<stdio.h>
 #define SIZE 50 
 
@@ -19,7 +20,7 @@ int insert(int x)
 	else
 	{
 		top++;
-		//shifting
+		//shifting by one place to the right
 		
 		for(i=top-1;i>=0;i--)
 		{
