@@ -1,6 +1,11 @@
+/*
+Implementation of stack using array.
+maximum size of the array is taken a small number (5) to correctly demonstrate the "Stack Full" operation
+*/
+
 #include<stdio.h>
 #define MAX 5
-// MAX is SIZE
+// MAX is SIZE of the array
 int a[MAX];
 int top=-1;
 
