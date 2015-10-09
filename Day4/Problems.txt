@@ -1,0 +1,12 @@
+Implement Circular Queue and DQueue using an array
+Use Linklist to implement -
+* insert - at beginning
+         - at end
+         - at any position
+         
+* delete - at beginning
+         - at end
+         - at any position
+
+* reverse the linklist (WIP)  
+* Implement Stack Queue using Linklist
