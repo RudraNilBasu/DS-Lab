@@ -1,15 +1,16 @@
+//TODO: Reversing the linked list
 #include<stdio.h>
 #define intd(x) scanf("%d",&x)
 
-struct node 
+struct node // basic structure of all nodes
 {
 	int data;
 	struct node *next;
 };
 
-struct node *list;
+struct node *list; // pointer to the first list
 
-int insert_beg()
+int insert_beg() //insert in the beginning of the list
 {
 	int n;
 	struct node *p;
