@@ -1,3 +1,9 @@
+/*
+Program to perform basic operations in a linked list, including
+i) insert (at beginning, at end, at any position)
+ii) delete (from beginning, from end, any position)
+iii) reversing a linked list
+*/
 //TODO: Reversing the linked list
 #include<stdio.h>
 #define intd(x) scanf("%d",&x)
