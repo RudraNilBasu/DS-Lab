@@ -190,31 +190,6 @@ int main()
 {
 	struct node *p;
 	p=(struct node *)malloc(sizeof(struct node));
-	//list=p;
-	/*
-	printf("Enter no of elements in the linked list\n");
-	int t,n;
-	intd(t);
-	while(t--)
-	{
-		insert_end();
-	}
-	display();
-	printf("YOLO\n");
-	delBeg();
-	display();
-	insert_beg();
-	display();
-	insert_pos();
-	display();
-	delEnd();
-	display();
-	delPos();
-	display();
-	//printf("LOL\n");
-	//delBeg();
-	//display();
-	*/
 	int choice=0;
 	while(1)
 	{
