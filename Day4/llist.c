@@ -84,7 +84,6 @@ int insert_pos()
 				q->data=n;
 				q->next=p->next;
 				p->next=q;
-				// previous next = p;
 				break;
 			}
 		}
