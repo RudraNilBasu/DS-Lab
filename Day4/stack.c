@@ -1,15 +1,15 @@
 #include<stdio.h>
 #define intd(x) scanf("%d",&x)
 
-struct node 
+struct node // basic node structure
 {
 	int data;
 	struct node *next;
 };
 
-struct node *list;
+struct node *list; // pointer to the first node 
 
-int insert_beg()
+int insert_beg() // inserting in the beginning of the list
 {
 	int n;
 	struct node *p;
