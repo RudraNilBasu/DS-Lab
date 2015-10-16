@@ -95,18 +95,14 @@ int delEnd()
 	struct node *p,*q;
 	p=(struct node *)malloc(sizeof(struct node));
 	q=(struct node *)malloc(sizeof(struct node));
-	//for(p=list;p->next!=NULL;p=p->next);
-	//p->next=NULL;
-	//printf("DEL  : %d\n",p->data);
-	p=list;
-	if(list==NULL)
+	if(list==NULL)  // checking whether the list is empty
 	{
 		printf("Empty\n");
 	}
 	else
 	{
 		
-		while(p->next!=NULL)
+		while(p->next!=NULL) // moving till the 2nd last node
 		{
 			q=p;
 			p=p->next;
