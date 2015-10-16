@@ -3,8 +3,8 @@
 
 struct node // basic node structure
 {
-	int data;
-	struct node *next;
+	int data; // the data part of the node storing integer value
+	struct node *next; // the pointer to the next node
 };
 
 struct node *list; // pointer to the first node 
