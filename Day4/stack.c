@@ -27,7 +27,7 @@ int insert_end() // inserting a node in the end of the list
 	struct node *p,*q;
 	p=(struct node *)malloc(sizeof(struct node));
 	q=(struct node *)malloc(sizeof(struct node));
-	if(list==NULL)
+	if(list==NULL)   // if there is no node in the linked list
 	{
 		printf("Enter the 1st Data\n");
 		intd(n);
