@@ -35,7 +35,7 @@ int insert_end() // inserting a node in the end of the list
 		p->next=NULL;
 		list=p;
 	}
-	else
+	else // if list is not NULL
 	{
 		for(q=list;q->next!=NULL;q=q->next);
 		printf("Enter the data\n");
