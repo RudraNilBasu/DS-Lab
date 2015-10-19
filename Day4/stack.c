@@ -47,7 +47,7 @@ int insert_end() // inserting a node in the end of the list
 	return 0;
 }
 
-int insert_pos()
+int insert_pos() // inserting at any given position
 {
 	int pos,n,c=0,k=0;
 	printf("Enter the position after which the node will be inserted\n");
