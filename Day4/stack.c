@@ -18,7 +18,7 @@ int insert_beg() // inserting in the beginning of the list
 	intd(n);
 	p->data=n;
 	p->next=list;
-	list=p;
+	list=p;// setting the initial node
 }
 
 int insert_end() // inserting a node in the end of the list
