@@ -23,7 +23,7 @@ int insert_beg() // inserting in the beginning of the list
 
 int insert_end() // inserting a node in the end of the list
 {
-	int n;
+	int n;// the value of the data part of the node
 	struct node *p,*q;
 	p=(struct node *)malloc(sizeof(struct node));
 	q=(struct node *)malloc(sizeof(struct node));
