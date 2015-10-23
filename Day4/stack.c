@@ -3,11 +3,11 @@
 
 struct node // basic node structure
 {
-	int data; // the data part of the node storing integer value
+	int data; // the data part of the node storing integer value.
 	struct node *next; // the pointer to the next node
 };
 
-struct node *list; // pointer to the first node 
+struct node *list; //Pointer to the first node 
 
 int insert_beg() // inserting in the beginning of the list
 {
