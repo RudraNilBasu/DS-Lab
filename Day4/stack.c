@@ -11,7 +11,7 @@ struct node *list; //Pointer to the first node
 
 int insert_beg() // inserting in the beginning of the list
 {
-	int n;
+	int n;// the data part of the node to be inserted
 	struct node *p;
 	p=(struct node *)malloc(sizeof(struct node));
 	printf("Enter the data \n");
