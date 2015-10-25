@@ -2,30 +2,7 @@
 #define intd(x) scanf("%d",&x)
 
 struct node 
-{
-	int data;
-	struct node *next;
-};
-
-struct node *list;
-
-int insert_beg()
-{
-	int n;
-	struct node *p;
-	p=(struct node *)malloc(sizeof(struct node));
-	printf("Enter the data \n");
-	intd(n);
-	p->data=n;
-	p->next=list;
-	list=p;
-}
-
-int insert_end()
-{
-	int n;
-	struct node *p,*q;
-	p=(struct node *)malloc(sizeof(struct node));
+{Jf(struct node));
 	q=(struct node *)malloc(sizeof(struct node));
 	if(list==NULL)
 	{
@@ -38,7 +15,7 @@ int insert_end()
 		/*
 		if(list==NULL)
 		{
-			printf("haha\n");
+		
 		}
 		*/
 	}
