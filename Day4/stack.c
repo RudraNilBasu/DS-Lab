@@ -1,7 +1,7 @@
 #include<stdio.h>
 #define intd(x) scanf("%d",&x) 
 
-struct node // basic node structure
+struct node // basic node structure of the linked list
 {
 	int data; // the data part of the node storing integer value.
 	struct node *next; // the pointer to the next node
@@ -43,7 +43,7 @@ int insert_end() // inserting a node in the end of the list
 		p->data=n;
 		p->next=NULL;
 		q->next=p;
-	}
+	}//
 	return 0;
 }
 
