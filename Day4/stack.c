@@ -1,5 +1,5 @@
 #include<stdio.h>
-#define intd(x) scanf("%d",&x)
+#define intd(x) scanf("%d",&x) 
 
 struct node // basic node structure
 {
@@ -12,7 +12,7 @@ struct node *list; //Pointer to the first node
 int insert_beg() // inserting in the beginning of the list
 {
 	int n;// the data part of the node to be inserted
-	struct node *p;
+	struct node *p; // struct node pointer to hold the new node
 	p=(struct node *)malloc(sizeof(struct node));
 	printf("Enter the data \n");
 	intd(n);// taking input of the node value
