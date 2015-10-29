@@ -11,12 +11,6 @@ struct node
 		p->data=n;
 		p->next=NULL;
 		list=p;
-		/*
-		if(list==NULL)
-		{
-		
-		}
-		*/
 	}
 	else
 	{
