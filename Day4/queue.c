@@ -11,7 +11,6 @@ struct node
 		p->data=n;
 		p->next=NULL;
 		list=p;
-		//printf("LOL %d %d\n",list->next, p->next);
 		/*
 		if(list==NULL)
 		{
