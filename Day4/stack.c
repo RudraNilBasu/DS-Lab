@@ -7,7 +7,7 @@ struct node // basic node structure of the linked list
 	struct node *next; // the pointer to the next node
 };
 
-struct node *list; //Pointer to the first node 
+struct node *list; //Pointer to the first node Of the list
 
 int insert_beg() // inserting in the beginning of the list
 {
