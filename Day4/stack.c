@@ -15,7 +15,7 @@ int insert_beg() // inserting in the beginning of the list
 	struct node *p; // struct node pointer to hold the new node
 	p=(struct node *)malloc(sizeof(struct node));
 	printf("Enter the data \n");//input
-	intd(n);// taking input of the node value
+	intd(n);// taking input of the node's data part
 	p->data=n;
 	p->next=list;
 	list=p;// setting the initial node
