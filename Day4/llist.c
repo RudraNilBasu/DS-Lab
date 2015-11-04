@@ -41,7 +41,7 @@ int insert_end()
 		p->data=n;
 		p->next=NULL;
 		list=p;
-		
+
 	}
 	else
 	{
@@ -101,7 +101,13 @@ int delEnd()
 	}
 	else
 	{
-		
+		p=list;
+		if(p->next == NULL)
+        {
+            // if there is only one node in the list
+            p=NULL;
+            list=NULL;
+        }
 		while(p->next!=NULL) // moving till the 2nd last node
 		{
 			q=p;
@@ -133,6 +139,7 @@ int delPos()
 	if(pos==1)
 	{
 		delBeg();
+		return 0;
 	}
 	struct node *p;
 	for(p=list;p!=NULL;p=p->next)
@@ -153,7 +160,7 @@ int delPos()
 		for(p=list;p!=NULL;p=p->next)
 		{
 			c++;
-			if(c==pos)
+			if(c==pos-1)
 			{
 				p->next=(p->next)->next;
 				break;

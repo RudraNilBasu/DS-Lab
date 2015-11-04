@@ -1,8 +1,39 @@
+/*
+
+Implementation of Queue using Linked List
+
+Done By Rudra Nil Basu
+
+*/
+
 #include<stdio.h>
 #define intd(x) scanf("%d",&x)
 
-struct node 
-{Jf(struct node));
+struct node
+{
+	int data;
+	struct node *next;
+};
+
+struct node *list;
+
+int insert_beg()
+{
+	int n;
+	struct node *p;
+	p=(struct node *)malloc(sizeof(struct node));
+	printf("Enter the data \n");
+	intd(n);
+	p->data=n;
+	p->next=list;
+	list=p;
+}
+
+int insert_end()
+{
+	int n;
+	struct node *p,*q;
+	p=(struct node *)malloc(sizeof(struct node));
 	q=(struct node *)malloc(sizeof(struct node));
 	if(list==NULL)
 	{
@@ -53,7 +84,6 @@ int insert_pos()
 				q->data=n;
 				q->next=p->next;
 				p->next=q;
-				// previous next = p;
 				break;
 			}
 		}
@@ -65,9 +95,6 @@ int delEnd()
 	struct node *p,*q;
 	p=(struct node *)malloc(sizeof(struct node));
 	q=(struct node *)malloc(sizeof(struct node));
-	//for(p=list;p->next!=NULL;p=p->next);
-	//p->next=NULL;
-	//printf("DEL  : %d\n",p->data);
 	p=list;
 	if(list==NULL)
 	{
@@ -75,7 +102,7 @@ int delEnd()
 	}
 	else
 	{
-		
+
 		while(p->next!=NULL)
 		{
 			q=p;
@@ -83,7 +110,6 @@ int delEnd()
 		}
 		q->next=NULL;
 	}
-	//q->next=NULL;
 }
 
 int delBeg()
@@ -94,7 +120,6 @@ int delBeg()
 	}
 	else
 	{
-		//list->next=(list->next)->next;
 		list=list->next;
 	}
 }
@@ -159,31 +184,6 @@ int main()
 {
 	struct node *p;
 	p=(struct node *)malloc(sizeof(struct node));
-	//list=p;
-	/*
-	printf("Enter no of elements in the linked list\n");
-	int t,n;
-	intd(t);
-	while(t--)
-	{
-		insert_end();
-	}
-	display();
-	printf("YOLO\n");
-	delBeg();
-	display();
-	insert_beg();
-	display();
-	insert_pos();
-	display();
-	delEnd();
-	display();
-	delPos();
-	display();
-	//printf("LOL\n");
-	//delBeg();
-	//display();
-	*/
 	int choice=0;
 	while(1)
 	{
@@ -195,7 +195,7 @@ int main()
 		}
 		else if(choice==2)
 		{
-			delEnd();
+			delBeg();
 		}
 		else if(choice==3)
 		{
@@ -205,24 +205,6 @@ int main()
 		{
 			break;
 		}
-		/*
-		else if(choice==5)
-		{
-			delPos();
-		}
-		else if(choice==6)
-		{
-			insert_pos();
-		}
-		else if(choice==7)
-		{
-			break;
-		}
-		else if(choice==8)
-		{
-			display();
-		}
-		*/
 	}
 	return 0;
 }
