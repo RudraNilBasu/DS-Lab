@@ -1,5 +1,10 @@
+/*
+Implementation of stack using Linked List
+Done By - Rudra Nil Basu
+*/
+
 #include<stdio.h>
-#define intd(x) scanf("%d",&x) 
+#define intd(x) scanf("%d",&x)
 
 struct node // basic node structure of the linked list
 {
@@ -97,7 +102,7 @@ int delEnd()
 	}
 	else
 	{
-		
+
 		while(p->next!=NULL)
 		{
 			q=p;
@@ -181,31 +186,6 @@ int main()
 {
 	struct node *p;
 	p=(struct node *)malloc(sizeof(struct node));
-	//list=p;
-	/*
-	printf("Enter no of elements in the linked list\n");
-	int t,n;
-	intd(t);
-	while(t--)
-	{
-		insert_end();
-	}
-	display();
-	printf("YOLO\n");
-	delBeg();
-	display();
-	insert_beg();
-	display();
-	insert_pos();
-	display();
-	delEnd();
-	display();
-	delPos();
-	display();
-	//printf("LOL\n");
-	//delBeg();
-	//display();
-	*/
 	int choice=0;
 	while(1)
 	{
@@ -227,24 +207,6 @@ int main()
 		{
 			break;
 		}
-		/*
-		else if(choice==5)
-		{
-			delPos();
-		}
-		else if(choice==6)
-		{
-			insert_pos();
-		}
-		else if(choice==7)
-		{
-			break;
-		}
-		else if(choice==8)
-		{
-			display();
-		}
-		*/
 	}
 	return 0;
 }
