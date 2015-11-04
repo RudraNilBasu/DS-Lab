@@ -43,7 +43,7 @@ int insert_end() // inserting a node in the end of the list
 		p->data=n;
 		p->next=NULL;
 		q->next=p;
-	}//
+	}
 	return 0;
 }
 
@@ -76,7 +76,6 @@ int insert_pos() // inserting at any given position
 				q->data=n;
 				q->next=p->next;
 				p->next=q;
-				// previous next = p;
 				break;
 			}
 		}
