@@ -8,7 +8,7 @@ Done by Rudra Nil Basu
 #include<stdio.h>
 #define intd(x) scanf("%d",&x)
 
-struct node 
+struct node // basic node structure
 {
 	struct node *prev;
 	int data;
