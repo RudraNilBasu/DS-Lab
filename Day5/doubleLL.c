@@ -10,9 +10,9 @@ Done by Rudra Nil Basu
 
 struct node // basic node structure
 {
-	struct node *prev;
-	int data;
-	struct node *next;
+	struct node *prev; // link to the previous node
+	int data;   // the data part containing the value of the node
+	struct node *next;  // link to the next node
 };
 
 struct node *list;
