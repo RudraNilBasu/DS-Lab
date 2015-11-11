@@ -26,7 +26,7 @@ int insFr()
 		// if the list is empty
 		printf("Enter the data\n");
 		intd(p->data);
-		p->next=NULL;
+		p->next=NULL; // the next part of the last node is NULL
 		list=p;
 		p->prev=list;
 	}
