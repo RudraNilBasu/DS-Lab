@@ -17,7 +17,7 @@ struct node // basic node structure
 
 struct node *list;
 
-int insFr()
+int insFr()// to insert at front
 {
 	struct node *p;
 	p=(struct node *)malloc(sizeof(struct node ));
