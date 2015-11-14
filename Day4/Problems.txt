@@ -1,6 +1,6 @@
 Implement Circular Queue and DQueue using an array
 Use Linklist to implement -
-* insert - at beginning
+* Insert - at beginning
          - at end
          - at any position
          
