@@ -36,7 +36,7 @@ int insFr()// to insert at front
 		printf("Enter the data\n");
 		intd(p->data);
 
-		p->next=list;
+		p->next=list; // next part of last node is NULL
 		list->prev=p;
 		list=p;
 
