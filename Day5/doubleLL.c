@@ -37,11 +37,11 @@ int insFr()// to insert at front
 		intd(p->data);
 
 		p->next=list; // next part of last node is NULL
-		list->prev=p;
+		list->prev=p; 
 		list=p;
 
 	}
-	return 0;
+	return 0; // for successfull execution of the method
 }
 
 int display()
