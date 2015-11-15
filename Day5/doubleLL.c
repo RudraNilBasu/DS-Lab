@@ -137,7 +137,6 @@ int delEnd()
 		return 0;
 	}
 	for(q=list;q->next!=NULL;q=q->next);
-	//printf("lol %d\n",q->data);
 	(q->prev)->next=NULL;
 	return 0;
 }
@@ -155,13 +154,12 @@ int delPos()
 	struct node *q;
 	for(q=list;q->next!=NULL;q=q->next)
 	{
-		c++;//printf("lol\n");
+		c++;
 		if(c==pos)
 		{
 			break;
 		}
 	}
-	//q->next=(q->next)->next;
 	((q->next)->next)->prev=q;
 	q->next=(q->next)->next;
 	return 0;
