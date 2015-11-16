@@ -6,7 +6,7 @@ All the codes are arranged according to the Day number in which the problems wer
 *  Merging (without sorting), Base address calculation and Inserting and deleting items at any position
 *  Calculating the sum of two polynomial (upto a certain degree), Finding the sum and product of an array given in 3 Tupple format.
 * Implementation of Stack and Queue, Circular Queue, DQueue, checking whether an infix expression is correct or not, Converting infix to Postfix, Calculating the value of a postfix expression.
-* Linked Lists - Basic operations and implementation of stack and queue using Linked List.
+* Linked Lists - Basic operations and implementation of stack and queue using Linked List, Doubly Linked List.
  
 ###Owner
 
