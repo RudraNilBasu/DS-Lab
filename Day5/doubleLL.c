@@ -115,7 +115,7 @@ int insPos()
 
 int delFr()
 {
-	if(list==NULL)
+	if(list==NULL) // not performing deletion if the list is empty
 	{
 		printf("Empty\n");
 		return 0;
