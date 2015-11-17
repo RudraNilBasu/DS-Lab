@@ -12,7 +12,7 @@ int isoperand(int i)
 {
     if(inf2[i]>='a' && inf2[i]<='z')
         return 1;
-    return 0;
+    return 0; // if not operand
 }
 
 int isoperator(int i)
