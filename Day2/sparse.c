@@ -1,7 +1,8 @@
 /*
 Input a sparse matrix in 3 tupple form and find sum and product
+Refer this link for better understanding of the pointer notation used in the array in this code : 
+http://www.geeksforgeeks.org/dynamically-allocate-2d-array-c/
 */
-//NOTE : MULTIPLICATION may be wrong right now
 #include<stdio.h>
 int main()
 {
