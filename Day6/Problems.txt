@@ -1,4 +1,4 @@
-Implement : 
+Implement using C : 
 i) Bubble Sort
 ii) Selection Sort
 iii) Insertion Sort
