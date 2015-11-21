@@ -15,7 +15,7 @@ int main()
 		pos=i;
 		for(j=i+1;j<SIZE ;j++)
 		{
-			if(a[pos]>a[j])
+			if(a[pos]>a[j]) // finding the next minimum number
 			{
 				pos=j;
 			}
