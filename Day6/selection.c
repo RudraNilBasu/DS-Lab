@@ -22,7 +22,7 @@ int main()
 		}
 		if(pos!=i)
 		{
-			//swap a[pos] and a[i]
+			//swap a[pos] and a[i] to save the next least element in it's correct position
 			int temp=a[pos];
 			a[pos]=a[i];
 			a[i]=temp;
