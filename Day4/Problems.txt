@@ -8,5 +8,5 @@ Use Linklist to implement -
          - at end
          - at any position
 
-* reverse the linklist (WIP)  
+* reverse the linklist.
 * Implement Stack Queue using Linklist
