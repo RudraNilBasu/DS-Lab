@@ -15,7 +15,7 @@ struct node // basic node structure
 	struct node *next;  // link to the next node
 };
 
-struct node *list;
+struct node *list; // pointer to the first node of the list
 
 int insFr()// to insert at front
 {
