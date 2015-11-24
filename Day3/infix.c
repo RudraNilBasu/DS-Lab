@@ -1,6 +1,5 @@
 //To check whether a infix expression is correct or not
 // Done upto checking the number of Brackets,  operands.
-// May be rough, Please report in case of errors
 // Done by - Rudra Nil Basu, @PriZm
 #include<stdio.h>
 int top=-1;
