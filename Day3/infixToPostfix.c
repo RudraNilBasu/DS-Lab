@@ -17,7 +17,7 @@ int top=-1;
 int operatorPresent()
 {
     int i;
-    RUN(i,0,top)
+    RUN(i,0,top) // checking if more operators are present
     {
         if(s[i]=='+' ||s[i]=='-' ||s[i]=='*' ||s[i]=='*' ||s[i]=='/' ||s[i]=='*')
             return 1;
