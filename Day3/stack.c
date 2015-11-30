@@ -7,7 +7,7 @@ maximum size of the array is taken a small number (5) to correctly demonstrate t
 #define MAX 5
 // MAX is SIZE of the array
 int a[MAX];
-int top=-1;
+int top=-1; // the top index of the stack
 
 int push(int x)
 {
