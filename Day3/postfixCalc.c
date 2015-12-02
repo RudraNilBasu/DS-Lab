@@ -30,9 +30,9 @@ int main()
         top=-1; // Re-initialising stack
         RUNBF(i,0,strlen(pf))
         {
-            if( isnum(pf[i] ) )
+            if( isnum(pf[i] ) ) // if pf[i] is a number
                {
-                   s[++top]=(pf[i]-48);//printf("LOL %d\n",s[top]);
+                   s[++top]=(pf[i]-48);
                }
                if(pf[i]=='+')
                {
