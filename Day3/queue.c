@@ -5,7 +5,7 @@ int front=-1,last=0;
 
 int push(int x)
 {
-	if(front>=SIZE)
+	if(front>=SIZE) // Overflow condition
 	{
 		printf("Queue Overflow\n");
 	}
