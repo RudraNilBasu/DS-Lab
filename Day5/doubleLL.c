@@ -25,10 +25,10 @@ int insFr()// to insert at front
 	{
 		// if the list is empty
 		printf("Enter the data\n");
-		intd(p->data);
+		intd(p->data); 
 		p->next=NULL; // the next part of the last node is NULL
 		list=p;
-		p->prev=list;
+		p->prev=list; // inserting at front, so previous part has to be "list"
 	}
 	else
 	{
