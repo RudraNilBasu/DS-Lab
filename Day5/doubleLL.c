@@ -47,7 +47,7 @@ int insFr()// to insert at front
 int display()
 {
 	struct node *p;
-	if(list==NULL) // if list is empty
+	if(list==NULL) // printing if list is Empty
 	{
 		printf("Empty\n");
 	}
