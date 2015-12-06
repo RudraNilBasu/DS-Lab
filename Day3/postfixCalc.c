@@ -32,7 +32,7 @@ int main()
         {
             if( isnum(pf[i] ) ) // if pf[i] is a number
                {
-                   s[++top]=(pf[i]-48);
+                   s[++top]=(pf[i]-48); // converting the number from character to integer format
                }
                if(pf[i]=='+')
                {
