@@ -40,14 +40,14 @@ int main()
     int k=1,r1,c1,num1;
     while(nonzero--)
     {
-        //fill up
+        //fill up the sparse matrix
         r1=*(arr+(k*3)+0);
         c1=*(arr+(k*3)+1);
         num1=*(arr+(k*3)+2);
         k++;
         a[r1][c1]=num1;
     }
-    printf("The matrix is:\n");
+    printf("The matrix is:\n"); // Printing the Sparse Matrix
     for(i=0;i<r;i++)
     {
         for(j=0;j<c;j++)
