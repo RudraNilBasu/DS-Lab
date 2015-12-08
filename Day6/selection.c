@@ -17,7 +17,7 @@ int main()
 		{
 			if(a[pos]>a[j]) // finding the next minimum number
 			{
-				pos=j;
+				pos=j; // storing the position of the next smallest element
 			}
 		}
 		if(pos!=i)
