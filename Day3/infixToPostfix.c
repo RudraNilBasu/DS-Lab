@@ -1,4 +1,5 @@
 // Convert Infix To Postfix
+// Considering the input infix to be a correct one
 
 #include<string.h>
 #include<stdio.h>
