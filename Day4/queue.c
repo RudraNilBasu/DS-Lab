@@ -1,6 +1,6 @@
 /*
 
-Implementation of Queue using Linked List
+Implementation of Queue using Linked List. (FIFO)
 Done By Rudra Nil Basu
 
 */
