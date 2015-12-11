@@ -6,7 +6,7 @@ int main()
 	int i,j;
 	for(i=0;i<5;i++)
 	{
-		scanf("%d",&a[i]);
+		scanf("%d",&a[i]); // unsorted array
 	}
 	for(i=1;i<5;i++)
 	{
