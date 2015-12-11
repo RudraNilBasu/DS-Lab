@@ -7,7 +7,7 @@ int main()
 	printf("Enter elements in unsorted order\n");
 	for(i=0;i<SIZE;i++)
 	{
-		scanf("%d",&a[i]);
+		scanf("%d",&a[i]); // the unsorted array
 	}
 	//Sorting
 	for(i=0;i<SIZE-1;i++)
