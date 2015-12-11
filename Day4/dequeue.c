@@ -1,5 +1,5 @@
 /*
-
+Implementation of Dequeue
 */
 
 #include<stdio.h>
