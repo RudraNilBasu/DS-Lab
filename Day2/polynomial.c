@@ -5,7 +5,7 @@ Done by - Rudra Nil Basu
 #include<stdio.h>
 int main()
 {
-	int a[50],b[50],c[50];
+	int a[50],b[50],c[50]; // 2 polynomials and product polynomial
 	char p1[50],p2[50];
 	int i,n,pos,num;
 	for(i=0;i<50;i++)
