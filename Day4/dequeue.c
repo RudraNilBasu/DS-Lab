@@ -8,7 +8,7 @@ Implementation of Dequeue
 struct node // basic structure of all nodes
 {
 	int data;
-	struct node *next;
+	struct node *next; // next part pointing to the next node
 };
 
 struct node *list; // pointer to the first list
