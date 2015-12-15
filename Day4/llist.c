@@ -25,7 +25,7 @@ int insert_beg() //insert in the beginning of the list
 	intd(n);
 	p->data=n;
 	p->next=list;
-	list=p;
+	list=p; // inserting at the beginning
 }
 
 int insert_end()
