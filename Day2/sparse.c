@@ -33,7 +33,7 @@ int main()
     {
         for(j=0;j<c;j++)
         {
-            a[i][j]=0;
+            a[i][j]=0; // initialising to 0
         }
     }
     int nonzero=*(arr + 2);// storing the number of non zero elements
