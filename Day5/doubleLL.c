@@ -38,7 +38,7 @@ int insFr()// to insert at front
 
 		p->next=list; // next part of last node is NULL
 		list->prev=p; 
-		list=p;
+		list=p;// making it the first node
 
 	}
 	return 0; // for successfull execution of the method
