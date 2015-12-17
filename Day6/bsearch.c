@@ -22,7 +22,7 @@ int main()
 		}
 		else
 		{
-			if(n>a[mid])
+			if(n>a[mid]) // checking whether to take the first or second half of the array
 			{
 				low=mid+1;
 			}
