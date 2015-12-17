@@ -14,7 +14,7 @@ int main()
 	while(low<=high)
 	{
 		mid=(low+high)/2;
-		if(a[mid]==n)
+		if(a[mid]==n) // checking if the number is the mid element
 		{
 			printf("Found\n");
 			flag=1;
