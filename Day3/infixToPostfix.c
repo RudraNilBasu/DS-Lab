@@ -1,6 +1,8 @@
-// Convert Infix To Postfix
-// Considering the input infix to be a correct one
-
+/*
+ Done by - Rudra Nil Basu
+ Convert Infix To Postfix
+ Considering the input infix to be a correct one
+*/
 #include<string.h>
 #include<stdio.h>
 #define intin(x) scanf("%d",&x)
