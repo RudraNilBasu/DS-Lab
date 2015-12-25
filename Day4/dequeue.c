@@ -1,5 +1,6 @@
 /*
 Implementation of Dequeue
+Done by Rudra Nil Basu
 */
 
 #include<stdio.h>
@@ -7,7 +8,7 @@ Implementation of Dequeue
 
 struct node // basic structure of all nodes
 {
-	int data;
+	int data; // variable holding the integer data of the node
 	struct node *next; // next part pointing to the next node
 };
 
