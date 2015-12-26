@@ -56,7 +56,7 @@ int display()
 		printf("\n\nThe list is \n");
 		for(p=list;p!=NULL;p=p->next)
 		{
-			printf("%d\n",p->data);
+			printf("%d\n",p->data); 
 		}
 	}
 	printf("\n");
@@ -81,7 +81,7 @@ int insEnd()
 		// if the list is not empty
 		for(q=list;q->next!=NULL;q=q->next) // moving to the last node
 		{}
-		p->next=NULL;
+		p->next=NULL; // "last" pointer of the last node has to be NULL
 		p->prev=q;
 		q->next=p;
 	}
