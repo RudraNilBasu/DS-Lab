@@ -13,7 +13,7 @@ int top=-1;
 int isnum(char ch)
 {
     if(ch>='0' && ch<='9')
-        return 1;
+        return 1; // returning 1 if ch is a number
     return 0;
 }
 
