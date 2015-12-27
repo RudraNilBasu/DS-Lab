@@ -19,7 +19,7 @@ int main()
              scanf("%d",(arr + i*3 + j));//*(arr + i*3 + j)
         }
     }
-    //Convert six tupple to 2D array.
+    //Convert three tupple to 2D array.
     int r,c;
     r=*(arr +0);
     c=*(arr + 1);
