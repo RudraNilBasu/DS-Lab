@@ -37,7 +37,7 @@ int insFr()// to insert at front
 		intd(p->data);
 
 		p->next=list; // next part of last node is NULL
-		list->prev=p; 
+		list->prev=p; // placing the new node in the first position
 		list=p;// making it the first node
 
 	}
