@@ -26,7 +26,7 @@ int insert_beg() //insert in the beginning of the list
 	list=p;
 }
 
-int insert_end()
+int insert_end() // inserting a node in the end
 {
 	int n;
 	struct node *p,*q;
