@@ -25,7 +25,7 @@ int operatorPresent()
         if(s[i]=='+' ||s[i]=='-' ||s[i]=='*' ||s[i]=='*' ||s[i]=='/' ||s[i]=='*')
             return 1;
     }
-    return 0;
+    return 0; // returning 0 if no operator is present
 }
 
 int priority(char c)
