@@ -23,8 +23,7 @@ int insFr()// to insert at front
 	p=(struct node *)malloc(sizeof(struct node ));
 	if(list==NULL)
 	{
-		// if the list is empty
-		printf("Enter the data\n");
+		printf("Enter the data\n");// if the list is empty
 		intd(p->data); 
 		p->next=NULL; // the next part of the last node is NULL
 		list=p;
@@ -35,11 +34,9 @@ int insFr()// to insert at front
 		// if list is not empty
 		printf("Enter the data\n");
 		intd(p->data);
-
 		p->next=list; // next part of last node is NULL
 		list->prev=p; // placing the new node in the first position
 		list=p;// making it the first node
-
 	}
 	return 0; // for successfull execution of the method
 }
@@ -149,8 +146,8 @@ int delPos()
 		return 0;
 	}
 	printf("Enter the pos\n");
-	intd(pos);
-	int c=0;
+	intd(pos);// the position in which the node is to be deleted
+	int c=0; 
 	struct node *q;
 	for(q=list;q->next!=NULL;q=q->next)
 	{
