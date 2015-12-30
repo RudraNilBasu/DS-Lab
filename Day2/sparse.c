@@ -16,7 +16,7 @@ int main()
     {
         for(j=0;j<3;j++)
         {
-             scanf("%d",(arr + i*3 + j));//*(arr + i*3 + j)
+             scanf("%d",(arr + i*3 + j));
         }
     }
     //Convert three tupple to 2D array.
