@@ -28,7 +28,7 @@ int main()
 			a[i]=temp;
 		}
 	}
-	for(i=0;i<SIZE;i++)
+	for(i=0;i<SIZE;i++) // printing result
 	{
 		printf("%d\n",a[i]);
 	}
