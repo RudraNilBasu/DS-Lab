@@ -7,7 +7,7 @@ Done by Rudra Nil Basu
 
 struct node // basic node structure
 {
-    int data;
+    int data;  // data part of the node
     struct node *next; // pointer to another node
 };
 
