@@ -44,7 +44,7 @@ int del(int x)
 int display()
 {
 	int i;
-	if(top==-1)
+	if(top==-1) // checking whether the array is empty or not
 	{
 		printf("Empty\n");
 	}
