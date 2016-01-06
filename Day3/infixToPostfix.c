@@ -115,7 +115,7 @@ int main()
         while(top>(-1)) // printing the rest of the stack
         {
             printc(s[top]);
-            top--;
+            top--; // popping each element
         }
         newline;
     }
