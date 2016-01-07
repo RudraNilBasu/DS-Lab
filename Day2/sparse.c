@@ -23,7 +23,7 @@ int main()
     int r,c;
     r=*(arr +0);
     c=*(arr + 1);
-    int **a=(int **)malloc(r*sizeof(int));
+    int **a=(int **)malloc(r*sizeof(int)); // sparse matrix
     for(i=0;i<r;i++)
     {
         a[i]=(int *)malloc(c*sizeof(int));
