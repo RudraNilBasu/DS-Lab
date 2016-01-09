@@ -22,8 +22,8 @@ int insert_beg() //insert in the beginning of the list
 	printf("Enter the data \n");
 	intd(n);
 	p->data=n;
-	p->next=list;
-	list=p;
+	p->next=list;// next part storing the pointer to the first node
+	list=p;// the 'list' pointer will now point to the new node
 }
 
 int insert_end()
