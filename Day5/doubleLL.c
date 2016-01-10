@@ -79,8 +79,8 @@ int insEnd()
 		for(q=list;q->next!=NULL;q=q->next) // moving to the last node
 		{}
 		p->next=NULL; // "last" pointer of the last node has to be NULL
-		p->prev=q;
-		q->next=p;
+		p->prev=q; // previous pointer will point to the initial last node of the list
+		q->next=p; // the next pointer of the initial last node will point to the new node
 	}
 	return 0;
 }
