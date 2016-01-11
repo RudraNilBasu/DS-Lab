@@ -7,7 +7,7 @@
 #define RNB printf("Done by Rudra Nil Basu\n")
 
 char pf[50];
-int s[50];
+int s[50];  // creating an array of size 50 (serving as stack)
 int top=-1;
 
 int isnum(char ch)
