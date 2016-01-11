@@ -11,7 +11,7 @@ int push(int x)
 	}
 	else
 	{
-		a[++front]=x;
+		a[++front]=x; // increasing front value by one and storing the input in a[front]
 		printf("Element pushed : %d\n",a[front]);
 	}
 	return 0;
