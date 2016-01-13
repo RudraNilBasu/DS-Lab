@@ -54,40 +54,7 @@ int insert_end()
 	return 0;
 }
 
-int insert_pos()
-{
-	int pos,n,c=0,k=0;
-	printf("Enter the position after which the node will be inserted\n");
-	intd(pos);
-	printf("Enter data\n");
-	intd(n);
-	struct node *p;
-	struct node *q;
-	q=(struct node *)malloc(sizeof(struct node));
-	for(p=list;p!=NULL;p=p->next)
-	{
-		c++;
-	}
-	if(pos>c)
-	{
-		printf("Out of bounds\n");
-	}
-	else
-	{
-		c=0;
-		for(p=list;p!=NULL;p=p->next)
-		{
-			c++;
-			if(c==pos)
-			{
-				q->data=n;
-				q->next=p->next;
-				p->next=q;
-				break;
-			}
-		}
-	}
-}
+
 
 int delEnd()
 {
