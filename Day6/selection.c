@@ -2,7 +2,7 @@
 #define SIZE 5
 int main()
 {
-	int a[SIZE]; // array of size "SIZE"
+	int a[SIZE]; // array of length "SIZE"
 	int i,j,pos=0;
 	printf("Enter the unsorted aray\n");
 	for(i=0;i<SIZE;i++)
