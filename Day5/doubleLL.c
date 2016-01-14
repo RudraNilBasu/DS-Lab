@@ -85,7 +85,7 @@ int insEnd()
 	return 0;
 }
 
-int insPos()
+int insPos() // to insert at a user given position
 {
 	int pos;
 	printf("Enter the position after which you want to insert\n");
