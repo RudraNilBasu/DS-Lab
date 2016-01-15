@@ -63,7 +63,7 @@ int main()
 		}
 		else if(choice==2)
 		{
-			pop();
+			pop(); // popping an element from the queue
 		}
 		else if(choice==3)
 		{
