@@ -67,7 +67,7 @@ int main()
 		}
 		else if(choice==3)
 		{
-			display();
+			display(); // display the elements in the queue
 		}
 		else if(choice==4)
 		{
