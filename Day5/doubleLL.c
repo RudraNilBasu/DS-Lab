@@ -101,7 +101,7 @@ int insPos() // to insert at a user given position
 	printf("Enter the data\n");
 	intd(p->data);
 
-	// inserting
+	// inserting in the given position
 	p->next=q->next;
 	p->prev=q;
 
