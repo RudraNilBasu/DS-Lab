@@ -32,7 +32,7 @@ int insert_end()
 	struct node *p,*q;
 	p=(struct node *)malloc(sizeof(struct node));
 	q=(struct node *)malloc(sizeof(struct node));
-	if(list==NULL)
+	if(list==NULL) // when there is no nodes in the list
 	{
 		printf("Enter the 1st Data\n");
 		intd(n);
