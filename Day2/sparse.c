@@ -2,6 +2,7 @@
 Input a sparse matrix in 3 tupple form and find sum and product
 Refer this link for better understanding of the pointer notation used in the array in this code : 
 http://www.geeksforgeeks.org/dynamically-allocate-2d-array-c/
+NOTE:
 Also a better representation of the 2D array could have been used.
 This will be updated later.
 */
@@ -89,7 +90,7 @@ int main()
     k=1,r1,c1,num1;
     while(nonzero--)
     {
-        //fill up
+        //fill up of the matrix
         r1=*(arr2+(k*3)+0);
         c1=*(arr2+(k*3)+1);
         num1=*(arr2+(k*3)+2);
