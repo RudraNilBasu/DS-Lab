@@ -63,7 +63,7 @@ int main()
 		scanf("%d",&choice);
 		if(choice==1)
 		{
-			//implement Push
+			//implement Push FUnctionality
 			printf("Enter the number to be pushed\n");
 			scanf("%d",&x);// entering the number
 			push(x); //calling push method
