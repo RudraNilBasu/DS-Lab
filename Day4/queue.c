@@ -18,6 +18,7 @@ struct node *list;
 
 int insert_beg()
 {
+	// Insert at the beginning of the list
 	int n;
 	struct node *p;
 	p=(struct node *)malloc(sizeof(struct node));
