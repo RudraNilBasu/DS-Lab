@@ -71,5 +71,5 @@ int main()
 			printf("%dx^%d+",c[i],i);
 		}
 	}
-	printf("\n");
+	printf("\n"); // newline
 }
