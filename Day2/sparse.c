@@ -71,6 +71,7 @@ int main()
              scanf("%d",(arr2 + i*3 + j));//*(arr + i*3 + j)
         }
     }
+    // calculating the no of rows and cols
     r=*(arr2 +0);
     c=*(arr2 + 1);
     int **a2=(int **)malloc(r*sizeof(int));
