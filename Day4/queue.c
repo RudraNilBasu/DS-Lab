@@ -31,6 +31,7 @@ int insert_beg()
 
 int insert_end()
 {
+	// insert a node at the end of the linked list
 	int n;
 	struct node *p,*q;
 	p=(struct node *)malloc(sizeof(struct node));
