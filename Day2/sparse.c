@@ -84,7 +84,7 @@ int main()
     {
         for(j=0;j<c;j++)
         {
-            a2[i][j]=0;
+            a2[i][j]=0; // first filling up all the elements to 0
         }
     }
     nonzero=*(arr2 + 2);
