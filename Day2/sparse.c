@@ -103,7 +103,7 @@ int main()
     {
         for(j=0;j<c;j++)
         {
-            printf("%d ",a2[i][j]);//arr[i][j]=count++;
+            printf("%d ",a2[i][j]);
         }
         printf("\n");
     }
