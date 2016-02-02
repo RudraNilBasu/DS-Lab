@@ -27,7 +27,7 @@ int insert()
 	{
 		a[i+1]=a[i];
 	}
-	front++;
+	front++; //increasing front value by one
 	a[0]=value;
 	return 0;
 }
