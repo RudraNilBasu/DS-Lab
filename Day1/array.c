@@ -1,7 +1,7 @@
 /*
-// insert variable in beginning
-// delete using a given index
-// display the array
+insert variable in beginning
+delete using a given index
+display the array
 */
 #include<stdio.h>
 #define SIZE 50 
