@@ -28,7 +28,7 @@ int main()
 			a[i]=temp;
 		}
 	}
-	for(i=0;i<SIZE;i++) // printing result
+	for(i=0;i<SIZE;i++) // printing the resultant sorted array in ascending order
 	{
 		printf("%d\n",a[i]);
 	}
