@@ -36,8 +36,8 @@ int main()
                }
                if(pf[i]=='+')
                {
-                   int a=s[top];
-                   top--;
+                   int a=s[top]; 
+                   top--; // popping an element
                    int b=s[top];
                    top--;
                    res=a+b;
