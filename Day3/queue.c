@@ -32,6 +32,7 @@ int pop()
 
 int display()
 {
+	// printing the queue
 	int i;
 	if(last>front)
 	{
