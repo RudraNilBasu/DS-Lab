@@ -8,7 +8,7 @@ Done by : Rudra Nil Basu
 
 #define SIZE 5
 
-int front=0,rear=-1; // the front and rear element's index of the cq
+int front=0,rear=-1; // the front and rear element's index of the circular queue
 int a[SIZE];
 
 
