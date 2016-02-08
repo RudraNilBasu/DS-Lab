@@ -1,7 +1,7 @@
 /*
 Implementation of Doubly Linked List.
-Implement Insert at front, end, any position
-	  Delete at front rear any position
+Implement -Insert at * front, * end, * any position
+	  -Delete at * front * rear * any position
 
 Done by Rudra Nil Basu	  
 */
