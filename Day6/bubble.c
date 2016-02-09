@@ -20,7 +20,7 @@ int main()
 			}
 		}
 	}
-	//Printinh
+	//Printing
 	printf("Sorted array\n");
 	for(i=0;i<SIZE;i++)
 	{
