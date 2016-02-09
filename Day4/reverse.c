@@ -1,6 +1,6 @@
 /*
-Implementation of reversing a linked list
-Done by Rudra Nil Basu
+* Implementation of reversing a linked list
+* Done by Rudra Nil Basu
 */
 #include<stdio.h>
 #define intd(x) scanf("%d",&x)
