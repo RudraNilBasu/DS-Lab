@@ -124,7 +124,6 @@ int delBeg()
 	}
 	else
 	{
-		//list->next=(list->next)->next;
 		list=list->next;
 	}
 }
