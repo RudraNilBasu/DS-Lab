@@ -1,8 +1,6 @@
 /*
-
 Implementation of Queue using Linked List. (FIFO)
 Done By Rudra Nil Basu
-
 */
 
 #include<stdio.h>
