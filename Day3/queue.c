@@ -1,3 +1,6 @@
+/*
+Implementation of Queue
+*/
 #include<stdio.h>
 #define SIZE 5
 int a[SIZE];
