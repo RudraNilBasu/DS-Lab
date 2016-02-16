@@ -56,13 +56,13 @@ int display()
 			printf("%d\n",p->data);  // printing the data part of the nodes of the list
 		}
 	}
-	printf("\n");
+	printf("\n"); 
 	return 0;
 }
 
 int insEnd()
 {
-	struct node *p;
+	struct node *p; // new node to be inserted
 	struct node *q;
 	p=(struct node *)malloc(sizeof(struct node));
 	if(list==NULL) // if the list is empty
