@@ -103,11 +103,11 @@ int delEnd()
 	{
 		p=list;
 		if(p->next == NULL)
-        {
-            // if there is only one node in the list
-            p=NULL;
-            list=NULL;
-        }
+        	{
+            		// if there is only one node in the list
+            		p=NULL;
+            		list=NULL;
+        	}
 		while(p->next!=NULL) // moving till the 2nd last node
 		{
 			q=p;
