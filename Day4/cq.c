@@ -1,6 +1,6 @@
 /*
-Implementation of Circular Queue using array
-Done by : Rudra Nil Basu
+*Implementation of Circular Queue using array
+*Done by : Rudra Nil Basu
 */
 
 #include<stdio.h>
