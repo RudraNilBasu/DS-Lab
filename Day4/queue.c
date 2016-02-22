@@ -6,6 +6,7 @@ Done By Rudra Nil Basu
 #include<stdio.h>
 #define intd(x) scanf("%d",&x)
 
+// basic node structure
 struct node
 {
 	int data;
