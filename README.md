@@ -1,6 +1,6 @@
 # Data Structure Lab
 Collection of codes written in Data Structure Lab, in my 3rd Semester in my undergraduate course.
-All the codes are arranged according to the Day number in which the problems were given.
+All the codes are arranged according to the Day number in which the problems were given. Details of each questions are provided in the Readme file in the folder.
 
 ###Topics Covered
 *  Merging (without sorting), Base address calculation and Inserting and deleting items at any position
