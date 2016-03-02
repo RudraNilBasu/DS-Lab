@@ -1,6 +1,6 @@
 #Problems for Day 3 : 
 
-i) Implementation of stack using array showing ```push```,  ```pop``` and ```display```
+i) Implementation of ```stack``` using array showing ```push```,  ```pop``` and ```display```
 
 ii) Check whether a given infix expression is correct or not
 
