@@ -2,10 +2,10 @@
 
 Implement using C : 
 
-i) Bubble Sort
+* Bubble Sort
 
-ii) Selection Sort
+* Selection Sort
 
-iii) Insertion Sort
+* Insertion Sort
 
-iv) Binary Search
+* Binary Search
