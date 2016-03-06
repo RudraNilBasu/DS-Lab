@@ -1,6 +1,6 @@
 #Problems for Day 6
 
-Implement using C : 
+Implement the following sorting and searching algorithms using C : 
 
 * Bubble Sort
 
