@@ -1,5 +1,5 @@
 /*
-Implementation of Queue
+Implementation of Queue using C
 */
 #include<stdio.h>
 #define SIZE 5
