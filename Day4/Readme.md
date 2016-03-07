@@ -9,4 +9,4 @@ Use Linklist to implement -
          - at any position
 
 * reverse the linklist.
-* Implement Stack Queue using Linklist
+* Implement ```Stack, Queue``` using Linklist
