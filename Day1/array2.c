@@ -15,6 +15,8 @@ int front=-1;
 int insert()
 {
 	//insert at beginning
+	
+	// Boundary condition when the array is full
 	if(front==SIZE-1)
 	{
 	    printf("Array is full\n");
