@@ -1,4 +1,4 @@
-#Problems for Day 3 (Stack, Queue, Infix, postfix) : 
+#Problems for Day 3 (Stack, Queue, Infix and postfix) : 
 
 i) Implementation of ```stack``` using array showing ```push```,  ```pop``` and ```display```
 
