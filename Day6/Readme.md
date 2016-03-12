@@ -1,4 +1,7 @@
-#Problems for Day 6
+#Searching and Sorting
+
+
+###Problems for Day 6
 
 Implement the following sorting and searching algorithms using C : 
 
