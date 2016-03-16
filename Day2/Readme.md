@@ -1,4 +1,4 @@
-#Polynomial and Sparse Matrix
+#Polynomial Addition and Sparse Matrix
 
 ###Problem Statement
 
