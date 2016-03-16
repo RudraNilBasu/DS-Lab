@@ -4,4 +4,4 @@
 
 * Accept two polynomials and find their sum.
 
-* find sum of two sparse matrices in 3 tupple form
+* Accept two sparse matrices in three tupple form and find the sum.
