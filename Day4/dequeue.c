@@ -29,7 +29,7 @@ int insert_beg() //insert in the beginning of the list
 int insert_end() // inserting a node in the end
 {
 	int n;
-	struct node *p,*q;
+	struct node *p,*q; // p will hold the new node. q is for traversal
 	p=(struct node *)malloc(sizeof(struct node));
 	q=(struct node *)malloc(sizeof(struct node));
 	if(list==NULL)
