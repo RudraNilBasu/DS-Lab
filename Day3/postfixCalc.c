@@ -1,5 +1,6 @@
 /*
 To Calculate the value of a given postfix expression
+Done by - Rudra Nil Basu
 */
 #include<stdio.h>
 #define intin(x) scanf("%d",&x)
