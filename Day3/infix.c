@@ -1,6 +1,8 @@
-//To check whether a infix expression is correct or not
-// Done upto checking the number of Brackets,  operands.
-// Done by - Rudra Nil Basu, @PriZm
+/*
+To check whether a infix expression is correct or not
+ Done upto checking the number of Brackets,  operands.
+ Done by - Rudra Nil Basu
+*/
 #include<stdio.h>
 int top=-1;
 char inf[50];
