@@ -26,7 +26,7 @@ int main()
 			{
 				low=mid+1;
 			}
-			else
+			else // if the element is in the second half of the array
 			{
 				high=mid-1;
 			}
