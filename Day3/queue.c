@@ -1,5 +1,6 @@
 /*
 Implementation of Queue using C
+Done by Rudra Nil Basu
 */
 #include<stdio.h>
 #define SIZE 5
@@ -22,7 +23,7 @@ int push(int x)
 
 int pop()
 {
-	if(last>front)
+	if(last>front) // Underflow Condition
 	{
 		printf("QUEUE Underflow\n");
 	}
