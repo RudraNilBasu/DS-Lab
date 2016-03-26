@@ -1,5 +1,5 @@
 /*
-To Calculate the value of a given postfix expression
+To Calculate the value of a given postfix expression using stack
 Done by - Rudra Nil Basu
 */
 #include<stdio.h>
