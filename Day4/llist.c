@@ -11,7 +11,7 @@ iii) reversing a linked list
 struct node // basic structure of all nodes
 {
 	int data;
-	struct node *next;
+	struct node *next; // pointer to the next node
 };
 
 struct node *list; // pointer to the first list
