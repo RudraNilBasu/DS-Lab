@@ -1,5 +1,7 @@
 //Calculating Memory Address
-
+/*
+NOTE : it was considered here that the size of the matrix is 3X3
+*/
 #include<stdio.h>
 int main()
 {
@@ -12,7 +14,7 @@ int main()
 	scanf("%d %d",&i,&j);
 	if(c==1) // if row major 
 	{
-		x=ba+((i*3)+j)*sizeof(int);
+		x=ba+((i*3)+j)*sizeof(int); 
 	}
 	else  // if column major
 	{
