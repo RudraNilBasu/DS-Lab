@@ -14,7 +14,7 @@ int a[SIZE];
 
 int del()
 {
-    if(front==0 && rear == -1)
+    if(front==0 && rear == -1) // when the queue is empty
     {
         printf("Underflow\n");
     }
