@@ -37,7 +37,7 @@ int main()
 		scanf("%d",&num);
 		b[pos]=num;
 	}
-	//ADDING
+	//ADDING the two polynomials
 	for(i=0;i<50;i++)
 	{
 		c[i]=a[i]+b[i];
