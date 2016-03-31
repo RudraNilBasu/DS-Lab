@@ -42,7 +42,7 @@ int main()
 	{
 		c[i]=a[i]+b[i];
 	}
-	//PRINTING
+	//PRINTING the two polynomials
 	printf("FIRST POLYNOMMIAL\n");
 	for(i=0;i<50;i++)
 	{
