@@ -18,6 +18,7 @@ int isoperand(int i)
 
 int isoperator(int i)
 {
+    // checking for operator
     if(inf2[i]=='+')
     {
         return 1;
