@@ -23,7 +23,7 @@ int insert_beg() //insert in the beginning of the list
 	intd(n);
 	p->data=n;
 	p->next=list;
-	list=p;
+	list=p; // marking p as the first node
 }
 
 int insert_end() // inserting a node in the end
