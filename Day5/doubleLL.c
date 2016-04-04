@@ -50,7 +50,7 @@ int display()
 	}
 	else
 	{
-		printf("\n\nThe list is \n");
+		printf("\n\nThe list is \n"); // printing if the list is not empty
 		for(p=list;p!=NULL;p=p->next)
 		{
 			printf("%d\n",p->data);  // printing the data part of the nodes of the list
