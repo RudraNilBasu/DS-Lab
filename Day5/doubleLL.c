@@ -62,7 +62,7 @@ int display()
 
 int insEnd()
 {
-	struct node *p; // new node to be inserted
+	struct node *p; // new node to be inserted to the end
 	struct node *q;
 	p=(struct node *)malloc(sizeof(struct node));
 	if(list==NULL) // if the list is empty
