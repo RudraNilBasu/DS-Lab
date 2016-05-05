@@ -23,12 +23,13 @@ int main()
 		if(pos!=i)
 		{
 			//swap a[pos] and a[i] to save the next least element in it's correct position
-			int temp=a[pos];
+			int temp=a[pos]; 
 			a[pos]=a[i];
 			a[i]=temp;
 		}
 	}
-	for(i=0;i<SIZE;i++) // printing the resultant sorted array in ascending order
+	// printing the resultant sorted array in ascending order
+	for(i=0;i<SIZE;i++) 
 	{
 		printf("%d\n",a[i]);
 	}
