@@ -25,7 +25,6 @@ int main()
 			if(a[posa]<b[posb])
 			{
 					//posa++;
-					//printf("lol1 position is %d\n",posa);
 					c[pos++]=a[posa++];
 					if(posa>9)
 					{
@@ -35,14 +34,12 @@ int main()
 						}
 						break;
 					}
-					//break;
 			}
 			else
 			{
 				c[pos++]=b[posb++];
 				if(posb>5)
 				{
-					//posb=4;
 					yolo=1;
 					for(i=posa;i<10;i++)
 					{
@@ -53,7 +50,6 @@ int main()
 			}
 		//}
 	}
-	//printf("YOLO\n");
 	for(i=0;i<15;i++)
 	{
 		printf("%d\n",c[i]);
