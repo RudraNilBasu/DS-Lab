@@ -70,7 +70,6 @@ int main()
 		}
 		else if(choice==2)
 		{
-			//pop
 			pop();
 		}
 		else if(choice==3)
