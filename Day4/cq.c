@@ -107,6 +107,7 @@ int main()
     {
         printf("1.Insert\n2.Delete.\n3.Display.\n4.EXIT\n");
         intd(choice);
+        // operating on the basis of choice
         if(choice==1)
         {
             printf("Enter no to insert\n");
