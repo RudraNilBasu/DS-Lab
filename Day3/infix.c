@@ -11,7 +11,7 @@ char inf2[50];
 
 int isoperand(int i)
 {
-    if(inf2[i]>='a' && inf2[i]<='z')
+    if(inf2[i]>='a' && inf2[i]<='z') // checking for operand
         return 1;
     return 0; // if not operand
 }
